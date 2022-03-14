@@ -27,7 +27,7 @@ const Login = () => {
     <div className="flex justify-start items-center flex-col h-screen">
       <div className=" relative w-full h-full">
         <video
-          src={shareVideo}
+//          src={shareVideo}
           type="video/mp4"
           loop
           controls={false}
@@ -43,7 +43,7 @@ const Login = () => {
 
           <div className="shadow-2xl">
             <GoogleLogin
-              clientId={`${process.env.REACT_APP_GOOGLE_API_TOKEN}`}
+              clientId={'795538194640-jag2fm251r95kr3eak0djoe320g4fjp1.apps.googleusercontent.com'}
               render={(renderProps) => (
                 <button
                   type="button"
